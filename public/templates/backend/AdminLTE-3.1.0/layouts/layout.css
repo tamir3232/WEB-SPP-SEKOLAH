@@ -1,0 +1,208 @@
+* {
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sideba {
+    position: absolute;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #042331;
+    transition: all .5s ease;
+}
+
+.sideba span{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063146;
+    user-select: none;
+}
+
+.sideba ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255,.1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+ul li:hover a{
+    padding-left: 50px;
+}
+
+.sideba ul a li{
+    margin-right: 16px;
+}
+
+#check{
+    display: none;
+}
+
+label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: #042331;
+    border-radius: 3px;
+}
+
+label #btn{
+    left: 25px;
+    top: 12px;
+    font-size: 20px;
+    color: white;
+    padding: 6px 10px;
+    transition: all .5s;
+}
+
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 12px;
+    font-size: 20px;
+    color: white;
+    padding: 6px 10px;
+    transition: all .5s ease;
+}
+
+#check:checked ~ .sideba{
+    left: 0;
+}
+
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+
+section{
+    background: url(pexels.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-position: absolute;
+}
+
+.main-header navbar navbar-expand navbar-white navbar-light{
+    color: #c3ff88;
+}
+
+/* .row {
+    background-image: linear-gradient(rgba(0, 218, 7, 0.5),rgba(0, 218, 7, 0.5)), url();
+} */
+
+.jumbotron {
+    margin-top: 50px;
+    color: rgb(18, 0, 110);
+    text-align: center;
+    background-color: white;
+}
+
+.table-responsive {
+    background: white;
+}
+
+
+/* nav ul li ul {
+    padding-left: 40px;
+    line-height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.997);
+}
+
+nav ul li .feat-show show{
+    display: block;
+}
+
+nav ul li ul li {
+    position: static;
+    line-height: 30px;
+    text-decoration: none;
+    display: none;
+    font-weight: 500;
+    width: 100%;
+    border-left: 3px solid transparent;
+}
+
+nav ul li ul li a:hover{
+    color: cyan;
+
+}
+
+nav ul li a p i{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 22px;
+    transition: transform 0.4;
+}
+
+nav ul li a:hover p i{
+    transform: translateY(-50%) rotate(-180deg);
+} */
+/* nav ul {
+    list-style: none;
+    position: relative;
+}
+
+nav ul li{
+    display: inline-block;
+    background: #1b1b1b;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+nav ul li a:hover{
+    color: cyan;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #33ffff,
+                0 0 5px #66ffff;
+} */
+/* 
+nav ul ul li a:hover{
+    color: cyan;
+    box-shadow: none;
+
+}
+nav ul ul{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s; 
+}
+
+nav ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul ul li {
+    position: relative;
+    margin: 0;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul ul li a{
+    line-height: 40px;
+} */
