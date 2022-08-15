@@ -16,7 +16,7 @@ Website SPP Sekolah Dibuat Dengan :
 
 # Login 
 
-- ADMIN
+- ADMINN
 username : admin123
 password : password
 
