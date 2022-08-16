@@ -22,7 +22,7 @@
       <th style="font-family: sans-serif;">Tanggal Bayar</th>
       <th style="font-family: sans-serif;">Nama Petugas</th>
       <th style="font-family: sans-serif;">Untuk Bulan</th>
-      <th style="font-family: sans-serif;">Untuk Tahun</th>
+      <th style="font-family: sans-serif;">Untuk Periode</th>
       <th style="font-family: sans-serif;">Nominal</th>
     </tr>
   </thead>

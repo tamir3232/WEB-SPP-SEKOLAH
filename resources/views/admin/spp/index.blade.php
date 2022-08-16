@@ -27,7 +27,7 @@
           <thead>
           <tr>
             <th>No</th>
-            <th>Tahun</th>
+            <th>Periode</th>
             <th>Nominal</th>
             <th>Aksi</th>
           </tr>
@@ -66,7 +66,7 @@
           <ul></ul>
         </div>
         <div class="form-group">
-          <label for="tahun">Tahun:</label>
+          <label for="tahun">Periode:</label>
           <input required="" type="text" name="tahun" id="tahun" class="form-control">  
         </div>
         <div class="form-group">
@@ -102,7 +102,7 @@
           <ul></ul>
         </div>
         <div class="form-group">
-          <label for="tahun_edit">Tahun:</label>
+          <label for="tahun_edit">Periode:</label>
           <input required="" type="hidden" readonly="" name="id" id="id_edit" class="form-control">
           <input required="" type="text" name="tahun" id="tahun_edit" class="form-control">  
         </div>

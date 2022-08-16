@@ -5,7 +5,7 @@
 <div class="row">
 	<div class="col-lg-6">
 		<div class="card">
-			<div class="card-header">Pilih Tahun</div>
+			<div class="card-header">Pilih Periode</div>
 			<div class="card-body">
 				<div class="list-group">
 				  @foreach($spp as $row)
