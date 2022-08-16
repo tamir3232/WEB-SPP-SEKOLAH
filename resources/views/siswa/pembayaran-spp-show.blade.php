@@ -29,7 +29,7 @@
             <th>Tanggal Bayar</th>
             <th>Nama Petugas</th>
             <th>Untuk Bulan</th>
-            <th>Untuk Tahun</th>
+            <th>Untuk Periode</th>
             <th>Nominal</th>
             <th>Status</th>
           </tr>

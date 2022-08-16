@@ -62,9 +62,9 @@
 					<div class="row">
 						<div class="col-lg-3">
 							<div class="form-group">
-								<label for="tahun_bayar">Untuk Tahun:</label>
+								<label for="tahun_bayar">Untuk Periode:</label>
 								<select required="" name="tahun_bayar" id="tahun_bayar" class="form-control select2bs4">
-										<option disabled="" selected="">- PILIH TAHUN -</option>
+										<option disabled="" selected="">- PILIH PERIODE -</option>
 									@foreach($spp as $row)
 										<option value="{{ $row->tahun }}">{{ $row->tahun }}</option>
 									@endforeach
