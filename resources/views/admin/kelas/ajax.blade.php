@@ -9,7 +9,6 @@ $(function () {
       columns: [
           {data: 'DT_RowIndex' , name: 'id'},
           {data: 'nama_kelas', name: 'nama_kelas'},
-          {data: 'kompetensi_keahlian', name: 'kompetensi_keahlian'},
           {data: 'action', name: 'action', orderable: false, searchable: true},
       ]
   });
@@ -74,7 +73,7 @@ $("body").on("click", ".btn-edit", function() {
       $("#id_edit").val(response.data.id)
       $("#nama_kelas_edit").val(response.data.nama_kelas)
       $("#nama_kelas_edit").val(response.data.nama_kelas)
-      $("#kompetensi_keahlian_edit").val(response.data.kompetensi_keahlian)
+      
       $("#editModal").modal("show")
     },
     error: function(err) {

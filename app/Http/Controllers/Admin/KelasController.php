@@ -42,11 +42,11 @@ class KelasController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'nama_kelas' => 'required|unique:kelas',
-            'kompetensi_keahlian' => 'required',
+            
         ],[
             'nama_kelas.required' => 'nama kelas tidak boleh kosong!',
             'nama_kelas.unique' => 'nama kelas sudah terdaftar!',
-            'kompetensi_keahlian.required' => 'kompetensi keahlian tidak boleh kosong!',
+            
         ]);
 
         if ($validator->passes()) {
@@ -82,10 +82,10 @@ class KelasController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'nama_kelas' => 'required',
-            'kompetensi_keahlian' => 'required',
+            
         ],[
             'nama_kelas.required' => 'nama kelas tidak boleh kosong!',
-            'kompetensi_keahlian.required' => 'kompetensi keahlian tidak boleh kosong!',
+            
         ]);
 
         if ($validator->passes()) {

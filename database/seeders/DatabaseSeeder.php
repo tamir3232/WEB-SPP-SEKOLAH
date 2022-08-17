@@ -192,17 +192,17 @@ class DatabaseSeeder extends Seeder
         // seed kelas
         $kelas1 = Kelas::create([
             'nama_kelas' => 'KOM A',
-            'kompetensi_keahlian' => 'Teknolog Informasi',
+            
         ]);
 
         $kelas2 = Kelas::create([
             'nama_kelas' => 'KOM B',
-            'kompetensi_keahlian' => 'TeknolTeknologi Informasisi',
+           
         ]);
 
         $kelas3 = Kelas::create([
             'nama_kelas' => 'KOM C',
-            'kompetensi_keahlian' => 'Teknologi Informasi',
+            
         ]);
 
     	$user1 = User::create([

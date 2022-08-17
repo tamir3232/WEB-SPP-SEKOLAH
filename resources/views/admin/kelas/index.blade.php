@@ -27,14 +27,12 @@
           <tr>
             <th>No</th>
             <th>Nama Kelas</th>
-            <th>Kompetensi Keahlian</th>
             <th>Aksi</th>
           </tr>
           </thead>
           <tbody>
           <tr>
           	<td></td>
-            <td></td>
             <td></td>
             <td></td>
           </tr>
@@ -68,10 +66,7 @@
             <label for="nama_kelas_create">Nama Kelas:</label>
             <input required type="" name="nama_kelas" id="nama_kelas_create" class="form-control">
           </div>
-          <div class="form-group">
-            <label for="kompetensi_keahlian_create">Komptensi Keahlian:</label>
-            <input required type="" name="kompetensi_keahlian" id="kompetensi_keahlian_create" class="form-control">
-          </div>
+          
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">CLOSE</button>
@@ -105,10 +100,7 @@
             <input required type="hidden" readonly="" name="id" id="id_edit" class="form-control">
             <input type="" name="nama_kelas" id="nama_kelas_edit" class="form-control">
           </div>
-          <div class="form-group">
-            <label for="kompetensi_keahlian_edit">Komptensi Keahlian:</label>
-            <input type="" name="kompetensi_keahlian" id="kompetensi_keahlian_edit" class="form-control">
-          </div>
+          
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">CLOSE</button>
