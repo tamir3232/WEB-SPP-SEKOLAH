@@ -21,7 +21,7 @@
   <thead>
     <tr>
       <th scope="col" style="font-family: sans-serif;">Petugas</th>
-      <th scope="col" style="font-family: sans-serif;">Untuk Tahun</th>
+      <th scope="col" style="font-family: sans-serif;">Untuk Periode</th>
       <th scope="col" style="font-family: sans-serif;">Untuk Bulan</th>
       <th scope="col" style="font-family: sans-serif;">Jumlah Bayar</th>
       <th scope="col" style="font-family: sans-serif;">Kode Pembayaran</th>

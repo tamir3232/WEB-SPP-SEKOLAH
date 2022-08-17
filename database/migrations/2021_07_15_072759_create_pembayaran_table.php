@@ -23,6 +23,7 @@ class CreatePembayaranTable extends Migration
             $table->string('bulan_bayar')->nullable();
             $table->string('tahun_bayar')->nullable();
             $table->integer('jumlah_bayar')->nullable();
+            $table->enum('status', ['Belum Bayar', 'Sudah Bayar'])->default('Belum Bayar');
             $table->timestamps();
         });
     }
